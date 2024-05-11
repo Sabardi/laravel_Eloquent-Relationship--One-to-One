@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
                 );
         }
 
-        for ($i=0; $i<5; $i++) {
+        for ($i=0; $i<9; $i++) {
             Nilai::create(
             [
             'sem_1' => $faker->randomFloat(2, 2, 4),
