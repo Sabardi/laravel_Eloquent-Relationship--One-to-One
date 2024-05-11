@@ -17,3 +17,12 @@ Dalam diagram ERD (Entity Relationship Diagram), relationship one to one digamba
 dengan satu garis yang tidak bercabang
 
 ![alt text](image.png)
+
+# Pengertian Primary Key dan Foreign Key
+Primary key adalah sebuah kolom (atau beberapa kolom) yang bisa mengidentifikasi setiap
+baris di dalam sebuah tabel. Jika tabel di generate menggunakan migration, secara otomatis
+Laravel sudah men-set kolom id sebagai primary key
+
+Sedangkan foreign key adalah sebutan untuk kolom yang nilainya merujuk ke primary key dari
+tabel lain. Kolom yang bertindak sebagai foreign key akan dipakai untuk proses penggabungan
+tabel (pembuatan relationship).
